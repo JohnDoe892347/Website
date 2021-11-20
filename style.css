@@ -1,0 +1,87 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+#logo{
+    font-family:'Arial';
+    cursor:pointer;
+    color:dodgerblue;
+   margin-right: auto;
+}
+li,a{
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:30px 10%;
+}
+ .nav__links {
+    list-style:none;
+    
+    }
+    .nav__links li {
+    display:inline-block;
+    padding:0px 20px;
+    }
+    .nav__links li a{
+    transition:all 0.3s ease 0s;
+    }
+    .nav__links li a :hover{
+        color:orange;
+    }
+    #Banner-Image{
+    background-image:url("waterfall.jpg");
+    width:100%;
+    height:50vh;
+    background-size: cover;
+    }
+    #input{
+        width:500px;
+        height:50px;
+        border:2px solid white;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 30px;
+        margin: -175px 0 0 -135px;
+      
+     }
+     #input::placeholder{
+         color: dodgerblue;
+         font-weight: bold;
+     }
+    #Gallery,h3{
+        margin-left:60px;
+        font-family: Arial, Helvetica, sans-serif;
+        Color:dodgerblue;
+    }
+    #Gallery{
+
+
+    }
+    .box{
+      margin-top:20px;  
+      margin-left:90px;  
+      display:block;
+      float:left;
+      width:20%;
+      padding:10px;
+      padding-left:12px;  
+    }
+    img{
+        width:100%;
+        border-radius:5px;
+    }
+    .buttons{
+        margin-top:40px;
+    }
